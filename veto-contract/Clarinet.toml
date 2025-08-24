@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.governance-controller]
+path = 'contracts/governance-controller.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.sip-010-trait]
 path = 'contracts/sip-010-trait.clar'
 clarity_version = 3
